@@ -75,7 +75,7 @@
     /*------------------------CARD-PLANO----------------------*/
     .titulo__plano{
         font-family: 'Gilroy-SemiBold';
-        font-size: 14px;
+        font-size: 13px;
 
         color: var(--high-dark);
 
@@ -99,7 +99,7 @@
     }
     .descricao__plano{
         font-family: 'Gilroy-SemiBold';
-        font-size: 14px;
+        font-size: 16px;
 
         line-height: 160%;
 
@@ -267,7 +267,7 @@
     .descricao__info___beneficios{
         font-family: 'Gilroy-SemiBold';
 
-        font-size: 14px;
+        font-size: 16px;
         line-height: 160%;
 
         color: var(--high-medium);
@@ -458,7 +458,7 @@
     }
     .empresa__perfil___depoimento{
         font-family: 'Gilroy-SemiBold';
-        font-size: 14px;
+        font-size: 16px;
 
         color: var(--high-medium);
     }
