@@ -11,6 +11,10 @@
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
+    .logo__bem-care{
+        width: 8.772rem;
+        height: 1.5rem;
+    }
     /*----------------------CONTEUDO---------------------*/
     .conteudo{
         display: flex;
@@ -49,8 +53,8 @@
         padding-right: 4.063rem;
     }
     .titulo__intro___banner{
-        font-family: 'Gilroy-Bold';
-        font-size: 56px;
+        font-family: 'Gilroy-ExtraBold';
+        font-size: 64px;
 
         color: var(--primary-blue);
 
@@ -60,13 +64,16 @@
     }
     .subtitulo__intro___banner{
         font-family: 'Gilroy-SemiBold';
-        font-size: 18px;
+        font-size: 20px;
 
-        line-height: var(--line-sm);
+        line-height: 32px;
 
         color: var(--high-medium);
 
         width: 27.25rem;
+
+        margin: 0%;
+        margin-top: 16px;
     }
     .font__weight-bold{
         font-family: 'Gilroy-SemiBold';
@@ -143,6 +150,11 @@
         background-image: url("../../Assets/Setas/seta-direita-branca.svg");
         background-position: 15.5rem center;
         background-repeat: no-repeat;
+        transition: .1s all ease-in-out;
+    }
+    .botao__ver___plano:hover{
+        background-color: #CC1069;
+        transition: .1s all ease-in-out;
     }
     /*-----------------------EMPRESAS----------------------*/
     .secao__empresas{
@@ -294,6 +306,11 @@
         background-image: url("../../Assets/Setas/seta-direita-branca.svg");
         background-position: 15.5rem center;
         background-repeat: no-repeat;
+        transition: .1s all ease-in-out;
+    }
+    .botao__ver___plano-beneficios:hover{
+        background-color: #CC1069;
+        transition: .1s all ease-in-out;
     }
     /*-----------------------DIFERENCIAL----------------------*/
     .secao__diferencial{
@@ -472,9 +489,8 @@
         align-items: center;
         gap: 2.125rem;
 
-        background-color: #F8F9FA;
-
         height: 2.5rem;
+        width: auto;
     }
     .botao__anterior___depoimento{
         border: none;
@@ -486,6 +502,8 @@
         background-image: url("../../Assets/Setas/seta-esquerda-cinza.svg");
         background-position: center center;
         background-repeat: no-repeat;
+
+        transition: all .4s ease-in-out;
     }
     .botao__proximo___depoimento{
         border: none;
@@ -497,6 +515,18 @@
         background-image: url("../../Assets/Setas/seta-direita-cinza.svg");
         background-position: center center;
         background-repeat: no-repeat;
+
+        transition: all .4s ease-in-out;
+    }
+    .botao__anterior___depoimento:active{
+        background-image: url("../../Assets/Setas/seta-esquerda-rosa.svg");
+
+        transition: all .4s ease-in-out;
+    }
+    .botao__proximo___depoimento:active{
+        background-image: url("../../Assets/Setas/seta-direita-rosa.svg");
+
+        transition: all .4s ease-in-out;
     }
     /*-----------------------CONTATO----------------------*/
     .secao__contato{
@@ -538,6 +568,11 @@
         background-image: url("../../Assets/Vetores/vetor-whatsapp.svg");
         background-position: 6rem center;
         background-repeat: no-repeat;
+        transition: all .1s ease-in-out;  
+    }
+    .botao__falar___whatsapp:hover{
+        background-color: #E6E6E6;  
+        transition: all .1s ease-in-out;  
     }
     /*----------------------------RODAPE-----------------------------*/
     .rodape{
@@ -549,6 +584,10 @@
 
         padding-bottom: 6.5rem;
         padding-top: 6.5rem;
+    }
+    .imagem__bem-care___footer{
+        width: 8.772rem;
+        height: 1.5rem;
     }
     .titulo__footer{
         font-family: 'Gilroy-SemiBold';
@@ -568,6 +607,8 @@
 
         font-family: 'Gilroy-Regular';
         font-size: 16px;
+
+        line-height: 28px;
 
         color: var(--high-medium);
 
