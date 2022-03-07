@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./CSS/PlanoAssistencial/planoAssistencial.css">
+        <style type="text/css" media="screen, print">
+            @font-face {
+            font-family: 'Gilroy-Black';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/Gilroy-Black.ttf');
+            }
+            @font-face {
+            font-family: 'Gilroy-Bold';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/Gilroy-Bold.ttf');
+            }
+            @font-face {
+            font-family: 'Gilroy-ExtraBold';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/Gilroy-ExtraBold.ttf');
+            }
+            @font-face {
+            font-family: 'Gilroy-Heavy';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/Gilroy-Heavy.ttf');
+            }
+            @font-face {
+            font-family: 'Gilroy-Light';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/Gilroy-Light.ttf');
+            }
+            @font-face {
+            font-family: 'Gilroy-Medium';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/Gilroy-Medium.ttf');
+            }
+            @font-face {
+            font-family: 'Gilroy-Regular';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/Gilroy-Regular.ttf');
+            }
+            @font-face {
+            font-family: 'Gilroy-SemiBold';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/Gilroy-SemiBold.ttf');
+            }
+            @font-face {
+            font-family: 'Gilroy-Thin';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/Gilroy-Thin.ttf');
+            }
+            @font-face {
+            font-family: 'Gilroy-UltraLight';
+            font-style: normal;
+            font-weight: normal;
+            src: url('./Font/Gilroy-UltraLight.ttf');
+            }
+            
+        </style>
+        <link href="./CSS/animacaoScroll.css" rel="stylesheet">
+        <link href="./CSS/base.css" rel="stylesheet">
+        <link href="./CSS/reset.css" rel="stylesheet">
+        <link href="./CSS/normalize.css" rel="stylesheet">
+        <link rel="shortcut icon" href="./Assets/favicon-bem-care.svg">
+        <title>Plano Assistêncial - bem.care</title>
+    </head>
+
+    <body id="body">
+
+        <header class="cabecalho">
+
+            <img src="./Assets/logo-bem.care.svg" alt="Logo Bem.Care" class="logo__bem-care">
+
+            <img src="./Assets/Vetores/vetor-coracao-preenchido.svg" alt="Coração" class="icone__coracao">
+
+            <img src="./Assets/logo-empresa.svg" alt="Logo Empresa" class="logo__empresa">
+
+        </header>
+
+        <main class="conteudo">
+
+            <section class="secao__progresso___compra">
+
+                <section class="secao__barra___progresso">
+
+                    <span class="barra__progresso" id="barra-progresso"></span>
+
+                </section>
+
+
+                <section class="secao__passos___progresso">
+
+                    <div class="container__passos___progresso">
+                        <div class="container__numero___passo">
+                            <span class="numero__passo___progresso numero__passo___atual primeiro__progresso"></span>
+                        </div>
+                        <span class="nome__passo___progresso nome__passo___atual">Dados</span>
+
+                    </div>
+
+                    <div class="container__passos___progresso">
+
+                        <div class="container__numero___passo">
+                            <span class="numero__passo___progresso segundo__progresso" id="numero-segundo__progresso"></span>
+                        </div>
+                        <span class="nome__passo___progresso" id="nome-segundo__progresso">Planos e Valores</span>
+                        
+                    </div>
+
+                    <div class="container__passos___progresso">
+
+                        <div class="container__numero___passo">
+                            <span class="numero__passo___progresso terceiro__progresso"></span>
+                        </div>
+                        <span class="nome__passo___progresso">Pagamento</span>
+                        
+                    </div>
+
+                    <div class="container__passos___progresso">
+
+                        <div class="container__numero___passo">
+                            <span class="numero__passo___progresso quarto__progresso"></span>
+                        </div>
+                        <span class="nome__passo___progresso">Confirmação</span>
+                        
+                    </div>
+
+                </section>
+
+            </section>
+            <div class="container__secoes">
+                <section class="secao__conteudo___passos">
+
+                    <section class="secao__dados" id="secao__dados">
+
+                        <section class="secao__dados___pessoal">
+
+                            <h1 class="titulo__dados___pessoal">Dados<span class="destaque__pink">.</span></h1>
+                            <p class="descricao__dados___pessoal">Preencha esses campos para conhecer-mos mais sobre a sua empresa. Vamos nos conhecer! <img src="./Assets/Vetores/vetor-carinha-sorrindo.png" alt="Emoji" class="emoji-descricao"></p>
+
+                            <section class="secao__input___dados">
+
+                                <div class="container__input">
+
+                                    <label for="Nome" class="label__input">Nome completo</label>
+                                    <input type="text" class="input__dados" placeholder="Nome completo" required>
+
+                                </div>
+
+                                <div class="container__input">
+
+                                    <label for="Email" class="label__input">Email</label>
+                                    <input type="email" class="input__dados" placeholder="Email" required>
+
+                                </div>
+
+                                <div class="container__input">
+
+                                    <label for="Confirme Email" class="label__input">Confirme o email</label>
+                                    <input type="email" class="input__dados" placeholder="Confirme o emal" required>
+
+                                </div>
+
+                                <div class="container__input">
+
+                                    <label for="Telefone" class="label__input">Telefone</label>
+                                    <input type="tel" class="input__dados input__dados-telefone" placeholder="Telefone" required>
+
+                                </div>
+
+                            </section>
+
+                        </section>
+
+                        <section class="secao__dados___empresa">
+
+                            <section class="secao__input___dados">
+
+                                <div class="container__input">
+
+                                    <label for="Nome Empresa" class="label__input">Nome da empresa</label>
+                                    <input type="text" class="input__dados" placeholder="Nome da empresa">
+
+                                </div>
+
+                                <div class="container__input">
+
+                                    <label for="Numero Vidas" class="label__input">Número de vidas</label>
+                                    <input type="number" class="input__dados" placeholder="Número de vidas">
+
+                                </div>
+
+                            </section>
+
+                            <div class="container__botao___avancar">
+                                <button class="botao__avancar___passos" id="botao__avancar___dados">Avançar</button>
+                            </div>
+                        </section>
+
+                    </section>
+
+                    <section class="secao__planos" id="secao__planos-valores">
+
+                        <section class="secao__planos___dados">
+
+                            <h2 class="titulo__planos">Planos<span class="destaque__pink">.</span></h2>
+                            <p class="descricao__planos">Selecione o tipo de plano desejado de acordo com o número de vidas e parta para o pagamento <img src="./Assets/Vetores/PlanoPrecos/vetor-dinheiro.png" alt="Emoji" class="emoji-dinheiro"></p>
+
+
+                            <section class="secao__dados-recolhidos">
+
+                                <h3 class="titulo__dados___recolhidos">Dados</h3>
+
+                                <div class="container__dados___recolhidos">
+
+                                    <span class="nome__dado___recolhido">Nome completo</span>
+                                    <span class="info__dado___recolhido">Helio Souza</span>
+
+                                </div>
+
+                                <div class="container__dados___recolhidos">
+
+                                    <span class="nome__dado___recolhido">Email</span>
+                                    <span class="info__dado___recolhido">bemcare01@bemcare.com</span>
+                                    
+                                </div>
+
+                                <div class="container__dados___recolhidos">
+
+                                    <span class="nome__dado___recolhido">Telefone</span>
+                                    <span class="info__dado___recolhido">+55 (75) 9 0000-0000</span>
+                                    
+                                </div>
+
+                                <div class="container__dados___recolhidos">
+
+                                    <span class="nome__dado___recolhido">Nome da empresa</span>
+                                    <span class="info__dado___recolhido">bem.care LTDA</span>
+                                    
+                                </div>
+
+                                <div class="container__numero___vidas">
+
+                                    <h4 class="titulo__numero___vidas">Número de vidas</h4>
+
+                                    <span class="numero__vidas"><span class="destaque__pink">45</span> vidas</span>
+
+                                </div>
+
+                            </section>
+
+                        </section>
+
+                        <section class="secao__escolha___planos">
+
+                            <section class="secao__opcoes___planos">
+
+                                <div class="container__opcoes___planos" id="container__plano___simples">
+                                    <div class="container__input__radio">
+                                        <div class="container__input___opcoes">
+                                            <input onclick="mudaBordaContainerSimples()" name="Planos" type="radio" class="input__aceitar-termos" id="check__plano___simples"> 
+                                        </div>
+                                    </div>
+
+                                    <h5 class="titulo__plano___opcoes">Plano simples</h5>
+
+                                    <ul class="lista__beneficios___opcoes">
+
+                                        <li class="item__lista___beneficios">Beneficio</li>
+
+                                        <li class="item__lista___beneficios">Beneficio</li>
+
+                                        <li class="item__lista___beneficios">Beneficio</li>
+
+                                        <li class="item__lista___beneficios">Beneficio</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <div class="container__opcoes___planos" id="container__plano___completo">
+                                    <div class="container__input__radio">
+                                        <div class="container__input___opcoes">
+                                            <input onclick="mudaBordaContainerCompleto()" name="Planos" type="radio" class="input__aceitar-termos" id="check__plano___completo">
+                                        </div>
+                                    </div>
+
+                                    <h5 class="titulo__plano___opcoes">Plano simples</h5>
+
+                                    <ul class="lista__beneficios___opcoes">
+
+                                        <li class="item__lista___beneficios">Beneficio</li>
+
+                                        <li class="item__lista___beneficios">Beneficio</li>
+
+                                        <li class="item__lista___beneficios">Beneficio</li>
+
+                                        <li class="item__lista___beneficios">Beneficio</li>
+
+                                    </ul>
+
+                                </div>
+
+                            </section>
+
+                            <div class="container__valor___plano">
+
+                                <h7 class="titulo__valor___plano">Valor da mensalidade</h7>
+
+                                <span class="valor__plano"><span class="destaque__pink">R$ 725</span> /mês</span>
+
+                            </div>
+
+                            <div class="container__botoes___planos">
+                                <button class="botao__regredir___passos-planos">Voltar</button>
+
+                                <button class="botao__avancar___passos-planos">Avançar</button>
+                            </div>
+                        </section>
+
+                    </section>
+
+                </section>
+            </div>
+
+        </main>
+
+    <script src="./Componentes/Planos/checkBorder.js" type="text/javascript"></script>
+    <script src="./Componentes/Planos/index.js" type="module"></script>
+    </body>
+
+</html>

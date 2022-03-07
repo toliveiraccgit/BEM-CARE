@@ -10,6 +10,8 @@
         padding-right: 9.25rem;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
+
+        margin-bottom: 4.5rem;
     }
     .logo__bem-care{
         width: 8.772rem;
@@ -20,600 +22,549 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        padding-bottom: 3.75rem;
+
+        width: 100%;
     }
-    /*-----------------------BANNER----------------------*/
-    .secao__banner___hero{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
-        width: 80vw;
-
-        padding-top: 6.5rem;
-    }
-    .secao__intro___banner{
-        display: flex;
-        flex-direction: column;
-
-        width: 34.313rem;
-    }
-    .secao__card___plano{
-        display: flex;
-        flex-direction: column;
-
-        width: 30.5rem;
-
-        background: #F8F9FA;
-        border-radius: 8px;
-
-        padding-top: 2.5rem;
-        padding-left: 2.5rem;
-        padding-bottom: 2.5rem;
-        padding-right: 4.063rem;
-    }
-    .titulo__intro___banner{
-        font-family: 'Gilroy-ExtraBold';
-        font-size: 64px;
-
-        color: var(--primary-blue);
-
-        line-height: var(--line-sm);
-
-        margin: 0%;
-    }
-    .subtitulo__intro___banner{
-        font-family: 'Gilroy-SemiBold';
-        font-size: 20px;
-
-        line-height: 32px;
-
-        color: var(--high-medium);
-
-        width: 27.25rem;
-
-        margin: 0%;
-        margin-top: 16px;
-    }
-    .font__weight-bold{
-        font-family: 'Gilroy-SemiBold';
-        font-weight: 600;
-    }
-    /*------------------------CARD-PLANO----------------------*/
-    .titulo__plano{
-        font-family: 'Gilroy-SemiBold';
-        font-size: 13px;
-
-        color: var(--high-dark);
-
-        margin: 0%;
-        margin-bottom: 1rem;
-    }
-    .info__card___plano{
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-        
-        margin-bottom: 2.313rem;
-    }
-    .nome__plano{
-        font-family: 'Gilroy-SemiBold';
-        font-size: 32px;
-
-        color: var(--primary-blue);
-
-        margin: 0%;
-    }
-    .descricao__plano{
-        font-family: 'Gilroy-SemiBold';
-        font-size: 16px;
-
-        line-height: 160%;
-
-        color: var(--high-medium);
-
-        margin: 0%;
-    }
-    .lista__beneficios___plano{
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-    .item__lista___beneficios{
-        font-family: 'Gilroy-SemiBold';
-        font-size: 16px;
-
-        color: var(--primary-blue);
-
-        padding-left: 2rem;
-
-        background-image: url("../../Assets/Vetores/vetor-beneficios-check.svg");
-        background-position: center left;
-        background-repeat: no-repeat;
-    }
-    .botao__ver___plano{
-        font-family: 'Gilroy-Bold';
-        font-size: 16px;
-
-        color: #FFFFFF;
-
-        padding-left: 8.188rem;
-        padding-right: 7.938rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-
-        margin-top: 4.125rem;
-        
-        background-color: var(--primary-pink);
-        border-radius: 8px;
-
-        background-image: url("../../Assets/Setas/seta-direita-branca.svg");
-        background-position: 15.5rem center;
-        background-repeat: no-repeat;
-        transition: .1s all ease-in-out;
-    }
-    .botao__ver___plano:hover{
-        background-color: #CC1069;
-        transition: .1s all ease-in-out;
-    }
-    /*-----------------------EMPRESAS----------------------*/
-    .secao__empresas{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
-        width: 80vw;
-
-        padding-left: 2rem;
-        padding-top: 6.5rem;
-        padding-bottom: 6.5rem;
-    }
-    .titulo__empresas{
-        font-family: 'Gilroy-SemiBold';
-        font-size: 48px;
-
-        color: var(--primary-blue);
-
-        width: 26.125rem;
-    }
-    .imagens__empresas{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5rem;
-
-        width: 29.166rem;
-    }
-    .primeira-linha__empresas{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
-        width: 27.166rem;
-    }
-    .segunda-linha__empresas{
+    .secao__conteudo___passos{
         display: flex;
         flex-direction: row;
         align-items: center;
 
-        width: 29.166rem;
+        width: 200vw;
     }
-    .imagem__empresa___microsoft{
-        margin-left: 5.7rem;
-        margin-right: 9.8rem;
-    }
-    /*-----------------------BENEFICIOS----------------------*/
-    
-    .secao__beneficios{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 6rem;
-
-        padding-top: 13rem;
-        padding-bottom: 9.813rem;
-    }
-    .titulo__beneficios{
-        font-family: 'Gilroy-SemiBold';
-        font-size: 48px;
-
-        color: var(--primary-blue);
-    }
-    .cabecalho__secao___beneficios{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 5rem;
-    }
-    .tablinks{
-        border: none;
-        background-color: transparent;
-
-        font-family: 'Gilroy-SemiBold';
-        font-size: 20px;
-
-        color: var(--high-dark);
-    }
-    .secao__tab___beneficios{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 13.188rem;
-
-        width: 80vw;
-    }
-    @media (max-width:1439px) {
-        .secao__tab___beneficios{
-            justify-content:space-between;
-
-            gap: 0rem;
-        }
-        
-    }
-    .imagem__beneficio{
-        width: 35.25rem;
-        height: 25.375rem;
-
-        border-radius: 8px;
-    }
-    .secao__info___beneficios{
-        display: flex;
-        flex-direction: column;
-
-        width: 22.938rem;
-    }
-    .titulo__info___beneficios{
-        font-family: 'Gilroy-SemiBold';
-        font-size: 32px;
-
-        color: var(--primary-blue);
-
-        margin-bottom: 1.5rem;
-    }
-    .font__weight-medium{
-        font-family: 'Gilroy-Medium';
-    }
-    .descricao__info___beneficios{
-        font-family: 'Gilroy-SemiBold';
-
-        font-size: 16px;
-        line-height: 160%;
-
-        color: var(--high-medium);
-
-        margin: 0%;
-    }
-    .botao__ver___plano-beneficios{
-        font-family: 'Gilroy-Bold';
-        font-size: 16px;
-
-        color: #FFFFFF;
-
-        padding-left: 8.188rem;
-        padding-right: 7.938rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-
-        margin-top: 3rem;
-
-        background-color: var(--primary-pink);
-
-        border-radius: 8px;
-
-        background-image: url("../../Assets/Setas/seta-direita-branca.svg");
-        background-position: 15.5rem center;
-        background-repeat: no-repeat;
-        transition: .1s all ease-in-out;
-    }
-    .botao__ver___plano-beneficios:hover{
-        background-color: #CC1069;
-        transition: .1s all ease-in-out;
-    }
-    /*-----------------------DIFERENCIAL----------------------*/
-    .secao__diferencial{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-
-        background-color: var(--primary-blue);
-
+    .container__secoes{
         width: 100vw;
 
-        padding-top: 6.875rem;
-        padding-bottom: 6.5rem;
-    }
-    .lista__diferencial{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
-        width: 80vw;
-    }
-    .item__lista___diferencial{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2.346rem;
-
-        width: 13.125rem;
-
-        text-align: center;
-    }
-    .titulo__diferencial{
-        font-family: 'Gilroy-SemiBold';
-
-        font-size: 24px;
-        line-height: 120%;
-
-        color: #FFFFFF;
-    }
-    /*-----------------------DEPOIMENTOS----------------------*/
-    .secao__depoimentos{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
-        width: 80vw;
-
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-    }
-    .titulo__depoimentos{
-        font-family: 'Gilroy-SemiBold';
-        font-size: 48px;
-
-        color: var(--primary-blue);
-
-        width: 31.563rem;
-    }
-
-    .container__carousel{
-        width: 42vw;
-
-        overflow-y: hidden;
         overflow-x: hidden;
     }
-    .lista__depoimentos{
+    /*-------------------BARRA-PROGRESSO------------------*/
+    .secao__progresso___compra{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 56.188rem;
+
+        margin-bottom: 3.438rem;
+    }
+    .secao__barra___progresso{
+        width: 100%;
+        height: 0.25rem;
+
+        background-color: #DBDDDE;
+    }
+    .barra__progresso{
+        display: block;
+        width: 0%;
+        height: 0.25rem;
+
+        background-color: var(--primary-pink);
+    }
+    /*-------------------PASSOS-PROGRESSO------------------*/
+    .secao__passos___progresso{
+        width: 61.188rem;
+
         display: flex;
         flex-direction: row;
         align-items: center;
-
-        width: auto;
-
-        transition: all .5s ease-in-out;
-    }
-    .item__lista___depoimentos{
-        display: flex;
-        flex-direction: column;
         justify-content: space-between;
 
-        background: #F8F9FA;
-        border-radius: 8px;
-
-        padding-top: 1.5rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        padding-bottom: 1.5rem;
+        position: relative;
+        top: -1rem;
     }
-    .texto__depoimento{
-        font-family: 'Gilroy-SemiBold';
-        font-size: 16px;
+    .container__passos___progresso{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .container__numero___passo{
+        width: 2rem;
+        height: 2rem;
 
-        line-height: 160%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .numero__passo___progresso{
+        width: 1.4rem;
+        height: 1.4rem;
+
+        border-radius: 50%;
+
+        background-color: #DBDDDE;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+
+        color:#FFFFFF;
+    }
+    .nome__passo___progresso{
+        font-family: 'Gilroy-Medium';
+        font-size: 15px;
+
+        color:#A3A3A3;
+    }
+    .numero__passo___atual{
+        outline: 7px solid #FFE8F3;
+
+        background-color: var(--primary-pink);
+
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+
+        color:#FFFFFF;
+    }
+    .nome__passo___atual{
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+
+        color:var(--primary-pink);
+    }
+    .primeiro__progresso{
+        background-image: url("../../Assets/Vetores/1.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .segundo__progresso{
+        background-image: url("../../Assets/Vetores/2.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .terceiro__progresso{
+        background-image: url("../../Assets/Vetores/3.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .quarto__progresso{
+        background-image: url("../../Assets/Vetores/4.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    /*-------------------DADOS------------------*/
+    .secao__dados{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        width: 100vw;
+
+        position: relative;
+    }
+    .secao__dados___pessoal{
+        display: flex;
+        flex-direction: column;
+        width: 39.79vw;
+
+        border-right: 1px solid #E3E5E6;
+
+        padding-right: 6rem;
+        padding-top: 2.75rem;
+        padding-bottom: 4.875rem;
+    }
+    .titulo__dados___pessoal{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 39px;
 
         color: var(--primary-blue);
 
         margin: 0%;
-        margin-bottom: 3.188rem;
-
-        padding-left: 1.688rem;
-
-        background-image: url("../../Assets/Vetores/vetor-aspas.svg");
-        background-position: left .4rem;
-        background-repeat: no-repeat;
-
-        width: 38vw;
+        margin-bottom: 1.5rem;
     }
-    @media (min-width:1441px){
-        .texto__depoimento{
-            font-family: 'Gilroy-SemiBold';
-            font-size: 16px;
-    
-            line-height: 160%;
-    
-            color: var(--primary-blue);
-    
-            margin: 0%;
-            margin-bottom: 3.188rem;
-    
-            padding-left: 1.688rem;
-    
-            background-image: url("../../Assets/Vetores/vetor-aspas.svg");
-            background-position: left .4rem;
-            background-repeat: no-repeat;
-    
-            width: 30.688rem;
-        }
-        .container__carousel{
-            width: 34.375rem;
-    
-            overflow-y: hidden;
-            overflow-x: hidden;
-        }
-    }
-    .container__perfil___depoimento{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 1rem;
-
-        padding-left: 1.5rem;
-    }
-    .imagem__perfil___depoimento{
-        border-radius: 50%;
-
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-    .info__perfil___depoimento{
-        display: flex;
-        flex-direction: column;
-        gap: .5rem;
-    }
-    .nome__perfil___depoimento{
-        font-family: 'Gilroy-Bold';
-        font-size: 16px;
-
-        color: var(--primary-blue);
-
-    }
-    .empresa__perfil___depoimento{
+    .descricao__dados___pessoal{
         font-family: 'Gilroy-SemiBold';
         font-size: 16px;
 
         color: var(--high-medium);
+
+        margin: 0%;
+        margin-bottom: 2.5rem;
     }
-    .container__botao___depoimento{
+    .emoji-descricao{
         position: relative;
-        top: -4rem;
-        left: 80%;
-
+        top: .1rem;
+        left: .4rem;
+    }
+    .secao__input___dados{
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 2.125rem;
-
-        height: 2.5rem;
-        width: auto;
+        flex-direction: column;
+        gap: 2rem;
     }
-    .botao__anterior___depoimento{
-        border: none;
-        background-color: transparent;
-
-        width: 1.5rem;
-        height: 1.5rem;
-
-        background-image: url("../../Assets/Setas/seta-esquerda-cinza.svg");
-        background-position: center center;
-        background-repeat: no-repeat;
-
-        transition: all .4s ease-in-out;
-    }
-    .botao__proximo___depoimento{
-        border: none;
-        background-color: transparent;
-
-        width: 1.5rem;
-        height: 1.5rem;
-
-        background-image: url("../../Assets/Setas/seta-direita-cinza.svg");
-        background-position: center center;
-        background-repeat: no-repeat;
-
-        transition: all .4s ease-in-out;
-    }
-    .botao__anterior___depoimento:active{
-        background-image: url("../../Assets/Setas/seta-esquerda-rosa.svg");
-
-        transition: all .4s ease-in-out;
-    }
-    .botao__proximo___depoimento:active{
-        background-image: url("../../Assets/Setas/seta-direita-rosa.svg");
-
-        transition: all .4s ease-in-out;
-    }
-    /*-----------------------CONTATO----------------------*/
-    .secao__contato{
-        width: 100vw;
-
+    .container__input{
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-
-        padding-left: 9.25rem;
-        padding-right: 10.5rem;
-        padding-top: 6.5rem;
-        padding-bottom: 6.5rem;
-
-        background-color: var(--primary-pink);
+        flex-direction: column;
+        gap: 1rem;
     }
-    .titulo__contato{
+    .label__input{
         font-family: 'Gilroy-SemiBold';
-        font-size: 48px;
+        font-size: 16px;
 
         color: var(--primary-blue);
-
-        width: 35.438rem;
     }
-    .destaque__white{
-        color: #FFFFFF;
-    }
-    .botao__falar___whatsapp{
-        background-color: #FFFFFF;
-        padding: 1rem 5.909rem 1rem 7.653rem;
-
+    .input__dados{
+        border: 1px solid #BBBBBB;
         border-radius: 8px;
 
-        color: var(--primary-pink);
+        padding: 1rem;
+
+        font-family: 'Gilroy-SemiBold';
+        font-size: 16px;
+
+        color: #292A2C;
+    }
+    .input__dados:focus{
+        outline: 1px solid #FC1482;;
+    }
+    .input__dados___corretos{
+        background-image: url("../../Assets/Vetores/vetor-input-preenchido.svg");
+        background-position: 97% center;
+        background-repeat: no-repeat;
+    }
+    .input__dados-telefone{
+        width: 14.813rem;
+    }
+    .secao__dados___empresa{
+        display: flex;
+        flex-direction: column;
+        width: 39.79vw;
+
+        padding-left: 6rem;
+        padding-top: 2.75rem;
+        padding-bottom: 4.875rem;
+    }
+    input[type=number]::-webkit-inner-spin-button { 
+        -webkit-appearance: none;
+        
+    }
+    input[type=number] { 
+       -moz-appearance: textfield;
+       appearance: textfield;
+    
+    }
+    .container__botao___avancar{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        margin-top: 4rem;
+    }
+    .botao__avancar___passos{
         font-family: 'Gilroy-Bold';
         font-size: 16px;
 
-        background-image: url("../../Assets/Vetores/vetor-whatsapp.svg");
-        background-position: 6rem center;
+        color: #FFFFFF;
+
+        padding-left: 4.125rem;
+        padding-right: 5.875rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        border-radius: 8px;
+        border: none;
+
+        background-color: var(--primary-pink);
+        background-image: url("../../Assets/Setas/seta-direita-branca.svg");
+        background-position: 8.5rem center;
         background-repeat: no-repeat;
-        transition: all .1s ease-in-out;  
+        transition: .1s all ease-in-out;
     }
-    .botao__falar___whatsapp:hover{
-        background-color: #E6E6E6;  
-        transition: all .1s ease-in-out;  
-    }
-    /*----------------------------RODAPE-----------------------------*/
-    .rodape{
+    /*-----------------PLANOS-PRECOS----------------*/
+    .secao__planos{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        justify-content: center;
 
         width: 100vw;
 
-        padding-bottom: 6.5rem;
-        padding-top: 6.5rem;
+        position: relative;
     }
-    .imagem__bem-care___footer{
-        width: 8.772rem;
-        height: 1.5rem;
+    .secao__planos___dados{
+        display: flex;
+        flex-direction: column;
+        width: 39.79vw;
+
+        border-right: 1px solid #E3E5E6;
+
+        padding-right: 6rem;
+        padding-top: 2.75rem;
+        padding-bottom: 4.875rem;
     }
-    .titulo__footer{
+    .titulo__planos{
         font-family: 'Gilroy-SemiBold';
-        font-size: 24px;
+        font-size: 39px;
 
         color: var(--primary-blue);
 
-        margin-top: 3.5rem;
-
-        padding-right: 2rem;
-        background-image: url("../../Assets/Vetores/vetor-coracao-footer.svg");
-        background-position: right center;
-        background-repeat: no-repeat;
+        margin: 0%;
+        margin-bottom: 1.5rem;
     }
-    .texto__copyright___footer{
-        text-align: center;
+    .descricao__planos{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 16px;
 
+        color: var(--high-medium);
+
+        margin: 0%;
+        margin-bottom: 2.5rem;
+    }
+    .emoji-dinheiro{
+        width: 1rem;
+        height: 1rem;
+
+        position: relative;
+        top: .1rem;
+        left: .4rem;
+    }
+    /*-----------------DADOS-RECOLHIDOS----------------*/
+    .secao__dados-recolhidos{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .titulo__dados___recolhidos{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 25px;
+
+        color: var(--primary-blue);
+
+        margin: 0%;
+    }
+    .container__dados___recolhidos{
+        display: flex;
+        flex-direction: column;
+        gap: 0.875rem;
+    }
+    .nome__dado___recolhido{
         font-family: 'Gilroy-Regular';
         font-size: 16px;
 
-        line-height: 28px;
+        color: #A3A3A3;
+
+        margin: 0%;
+    }
+    .info__dado___recolhido{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 16px;
+
+        color: var(--primary-blue);
+
+        margin: 0%;
+    }
+    .container__numero___vidas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .titulo__numero___vidas{
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+
+        color: #A3A3A3;
+
+        margin: 0%;
+    }
+    .numero__vidas{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 39px;
+
+        color: var(--primary-blue);
+
+        margin: 0%;
+
+        padding-left: 3.5rem;
+
+        background-image: url("../../Assets/Vetores/PlanoPrecos/vetor-vidas.svg");
+        background-position: left center;
+        background-repeat: no-repeat;
+    }
+    .secao__escolha___planos{
+        display: flex;
+        flex-direction: column;
+        width: 39.79vw;
+
+        padding-left: 3rem;
+        padding-top: 2.75rem;
+        padding-bottom: 4.875rem;
+    }
+    .container__input__radio{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-bottom: 1.8rem;
+    }
+    .container__input___check{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        gap: 1.25rem;
+
+        width: 27rem;
+
+        position: relative;
+        top: -2rem;
+    }
+    .container__input___opcoes{
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    .input__aceitar-termos{
+        all: unset;
+        margin-top: .5rem;
+
+        width: 1.25rem;
+        height: 1.25rem;
+
+        background-color: #E3E5E6;
+        border-radius: 50%;
+
+        border: 2px solid #E8E8E8;
+
+        display: inline-block;
+
+        cursor: pointer;
+    }
+
+    .input__aceitar-termos:checked{
+        background-color: var(--primary-pink);
+        color: var(--primary-pink);
+
+        border: 2px solid var(--primary-pink);
+
+        background-image: url("../../Assets/Vetores/vetor-input-preenchido.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .secao__opcoes___planos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .container__opcoes___planos{
+        display: flex;
+        flex-direction: column;
+
+        border: 1px solid #E3E5E6;
+        border-radius: 8px;
+
+        padding-top: 1.5rem;
+        padding-bottom: 1.813rem;
+        padding-left: 1.813rem;
+        padding-right: 1.063rem;
+    }
+    .titulo__plano___opcoes{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 25px;
+
+        color: var(--primary-blue);
+
+        margin: 0%;
+        margin-bottom: 1.188rem;
+
+        padding-right: 1.8rem;
+    }
+    .lista__beneficios___opcoes{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .item__lista___beneficios{
+        font-family: 'Gilroy-Medium';
+        font-size: 16px;
 
         color: var(--high-medium);
 
-        width: 54.563rem;
+        margin: 0%;
 
-        margin-top: 3rem;
+        padding-left: 1.5rem;
+
+        background-image: url("../../Assets/Vetores/PlanoPrecos/vetor-check-lista.svg");
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+    .container__valor___plano{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        margin-top: 4.5rem;
+    }
+    .titulo__valor___plano{
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+
+        color: #A3A3A3;
+
+        margin: 0%;
+    }
+    .valor__plano{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 39px;
+
+        color: var(--primary-blue);
+
+        margin: 0%;
+
+        padding-left: 3.5rem;
+
+        background-image: url("../../Assets/Vetores/PlanoPrecos/vetor-valor.svg");
+        background-position: left center;
+        background-repeat: no-repeat;
+    }
+    .container__botoes___planos{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 6.656rem;
+
+        margin-top: 12.375rem;
+    }
+    .botao__regredir___passos-planos{
+        border: none;
+        background-color: transparent;
+
+        color: var(--primary-pink);
+
+        font-family: 'Gilroy-Bold';
+        font-size: 16px;
+
+        background-image: url("../../Assets/Setas/seta-esquerda-rosa.svg");
+        background-position: left center;
+        background-repeat: no-repeat;
+
+        padding-left: 2rem;
+    }
+    .botao__avancar___passos-planos{
+        font-family: 'Gilroy-Bold';
+        font-size: 16px;
+
+        color: #FFFFFF;
+
+        padding-left: 4.125rem;
+        padding-right: 5.875rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        
+        border-radius: 8px;
+        border: none;
+        
+        background-color: var(--primary-pink);
+        background-image: url("../../Assets/Setas/seta-direita-branca.svg");
+        background-position: 8.5rem center;
+        background-repeat: no-repeat;
+
+        transition: .1s all ease-in-out;
     }
 }

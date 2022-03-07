@@ -70,3 +70,175 @@ html{
     font-family: 'Gilroy-Bold';
 }
 
+
+
+/*--------------------ANIMACOES-------------*/
+@keyframes animaDadosLeft {
+    from{
+        left: 0;
+    }
+    to{
+        left: -100vw;
+    }
+}
+
+
+
+/*--------------------ANIMACOES-BARRA-PROGRESSO-------------*/
+@keyframes animaBarraDados {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 30.5%;
+    }
+}
+
+
+
+/*--------------------ANIMACOES-BARRA-PROGRESSO-------------*/
+@keyframes animaProgressoDados {
+    from{
+        background-image: url("../Assets/Vetores/1.svg");
+    }
+    to{
+        background-image: url("../Assets/Vetores/vetor-input-preenchido.svg");
+    }
+}
+
+/*--------------------ANIMACOES-NUMERO-PROGRESSO-------------*/
+@keyframes animaNumeroProgresso {
+    from{
+        background-color: #DBDDDE;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+
+        color:#FFFFFF;
+    }
+    to{
+        outline: 7px solid #FFE8F3;
+
+        background-color: var(--primary-pink);
+
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+
+        color:#FFFFFF;
+    }
+}
+
+/*--------------------ANIMACOES-NOME-PROGRESSO-------------*/
+@keyframes animaNomeProgresso {
+    from{
+        font-family: 'Gilroy-Medium';
+        font-size: 15px;
+
+        color:#A3A3A3;
+    }
+    to{
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+
+        color:var(--primary-pink);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------ANIMACOES-REVERSO-------------*/
+@keyframes animaDadosLeftReverso {
+    from{
+        left: -100vw;
+    }
+    to{
+        left: 0;
+    }
+}
+
+
+
+/*--------------------ANIMACOES-BARRA-PROGRESSO-REVERSO-------------*/
+@keyframes animaBarraDadosReverso {
+    from{
+        width: 30.5%;
+    }
+    to{
+        width: 0%;
+    }
+}
+
+
+
+/*--------------------ANIMACOES-BARRA-PROGRESSO-REVERSO-------------*/
+@keyframes animaProgressoDadosReverso {
+    from{
+        background-image: url("../Assets/Vetores/vetor-input-preenchido.svg");
+    }
+    to{
+        background-image: url("../Assets/Vetores/1.svg");
+    }
+}
+
+/*--------------------ANIMACOES-NUMERO-PROGRESSO-REVERSO-------------*/
+@keyframes animaNumeroProgressoReverso {
+    from{
+        outline: 7px solid #FFE8F3;
+
+        background-color: var(--primary-pink);
+
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+
+        color:#FFFFFF;
+    }
+    to{
+        background-color: #DBDDDE;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+
+        color:#FFFFFF;
+    }
+}
+
+/*--------------------ANIMACOES-NOME-PROGRESSO-REVERSO-------------*/
+@keyframes animaNomeProgressoReverso {
+    from{
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+
+        color:var(--primary-pink);
+
+    }
+    to{
+        
+        font-family: 'Gilroy-Medium';
+        font-size: 15px;
+
+        color:#A3A3A3;
+    }
+}
